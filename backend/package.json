@@ -4,7 +4,6 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "batata": "node src/index.js",
     "dev": "nodemon src/server.js",
     "start": "node src/server.js"
@@ -20,13 +19,13 @@
     "url": "https://github.com/h-fcosta/js-basico/issues"
   },
   "homepage": "https://github.com/h-fcosta/js-basico#readme",
-  "description": "",
+  "description": "API REST para gerenciamento de tarefas, desenvolvida com Node.js e Express, seguindo o padrão MVC.",
   "dependencies": {
-    "@prisma/client": "^7.7.0",
-    "express": "^5.2.1"
+    "@prisma/client": "^6.19.3",
+    "express": "^5.2.1",
+    "prisma": "^6.19.3"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14",
-    "prisma": "^7.7.0"
+    "nodemon": "^3.1.14"
   }
 }
